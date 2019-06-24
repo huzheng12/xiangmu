@@ -1,0 +1,97 @@
+username: 
+password:
+email:
+
+gitusername:
+gituseremail:
+
+please tell me who you are 
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+git init git初始化，新建一个git厂库，里面有.git文件，所有的暂存文件和本地厂库资料放在.git里面
+
+git add   表示把工作区的文件添加到暂存区里面去  （workspace）
+./ 	 表示所有文件添加到暂存区
+
+git status 表示 查看文件状态  工作区/暂存区                   (index)
+
+git commit 表示把暂存区的文件提交到 本地仓库    (repository) 
+
+git log  查看提交日志
+
+git  diff  查看文件修改的内容
+
+git remote add   添加远程主机 
+
+git remote -v 查看主机
+
+git push  把 本地仓库的代码  推送到 远程仓库
+
+git checkout -b dev ==>  创建并且切换到dev
+
+git branch  查看分支
+
+git branch -d dev   删除dev分支
+
+git branch  dev   ===创建dev分支
+
+git checkout dev   切换到dev 分支 
+ 
+git merge dev  把 dev分支 合并到 master
+
+**********************************************************
+
+重点:
+
+git clone 克隆 远端  从远程主机克隆一个版本库
+
+git remote add 为了便于管理，Git要求每个远程主机都必须指定一个主机名。git remote命令就用于管理主机名。
+
+git fetch 一旦远程主机的版本库有了更新（Git术语叫做commit），需要将这些更新取回本地，这时就要用到git fetch命令
+
+git pull 取回远程主机某个分支的更新，再与本地的指定分支合并
+
+git push 命令用于将本地分支的更新，推送到远程主机
+
+git rm --cached ./html/git.html
+
+
+
+
+
+github 仓库  https://github.com/Zkliang1991/Zkliang1991.github.io.git
+
+username  Zkliang1991
+password  zkl868891
+
+Zkliang1991.github.io
+
+git clone 
+
+git add ./
+git commit -m "xx"
+git pull   拉取 
+git push   推送  
+
+
+
+
+
+
+Linux命令行
+
+cd  表示切换目录
+cd  /d 切换到d盘
+cd  wh1805  切换到文件夹
+cd  .. 表示切换到上一级目录
+Tab 表示自动补全
+ls  显示当前目录下文件
+mkdir 创建文件夹
+ctrl + c 强制退出当前命令行
+pwd  显示当前目录路径
+touch 创建文件
+rm -rf node_modules 删除文件
+
